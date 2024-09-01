@@ -8,12 +8,13 @@ variable "provider_choice" {
   
   default = {
     key = {
-    name  = "azure"
+    name  = "aws"
     count = "1"
     }
   }
 }
 
+# To pass var value to aws module
 variable "aws_Region" {
   description = "AWS Region"
   type        = string
