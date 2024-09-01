@@ -1,0 +1,5 @@
+# To access root variable value in module's variable
+
+Declare Variables in the child module using variable blocks.
+Use Variables in the child module’s resource definitions.
+Pass Values from the root module to the child module using the module block and specifying the variable names and values.
